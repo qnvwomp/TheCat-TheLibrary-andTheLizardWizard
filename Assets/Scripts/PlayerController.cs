@@ -31,15 +31,15 @@ public class PlayerController : MonoBehaviour
         // Store the X and Y components of the movement.
         movementX = movementVector.x;
         movementY = movementVector.y;
-    }
+        // FixedUpdate is called once per fixed frame-rate frame.
+        void FixedUpdate()
+        {
+            // Create a 3D movement vector using the X and Y inputs.
+            Vector2 movement = new Vector3(movementX, 0.0f, movementY);
 
-    // FixedUpdate is called once per fixed frame-rate frame.
-    private void FixedUpdate()
-    {
-        // Create a 3D movement vector using the X and Y inputs.
-        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+            // Apply force to the Rigidbody to move the player.
+            rb.AddForce(movement * speed);
+        }
 
-        // Apply force to the Rigidbody to move the player.
-        rb.AddForce(movement * speed);
     }
 }
