@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimationTrigger : MonoBehaviour
 {
-    public Animator animator; // Reference to the Animator component
+   public Animator animator; // Reference to the Animator component
 
     void OnTriggerEnter(Collider other)
     {
