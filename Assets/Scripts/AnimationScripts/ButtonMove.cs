@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveTelescope : MonoBehaviour
+public class ButtonMove : MonoBehaviour
 {
     public Animator animator; // Reference to the Animator component
 
@@ -11,7 +11,7 @@ public class MoveTelescope : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //Play the animation
-            animator.SetTrigger("MoveTelescope");
+            animator.SetTrigger("ButtonPush");
         }
     }
 }
