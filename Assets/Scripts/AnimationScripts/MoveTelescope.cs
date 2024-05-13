@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimationTrigger : MonoBehaviour
+public class MoveTelescope : MonoBehaviour
 {
     public Animator animator; // Reference to the Animator component
 
@@ -11,7 +11,7 @@ public class AnimationTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //Play the animation
-            animator.SetTrigger("OpenDoor");
+            animator.SetTrigger("MoveTelescope");
         }
     }
 }
