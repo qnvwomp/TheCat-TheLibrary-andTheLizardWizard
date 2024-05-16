@@ -946,6 +946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 320114111}
   - component: {fileID: 320114110}
+  - component: {fileID: 320114112}
   m_Layer: 0
   m_Name: SceneChangeCollider
   m_TagString: Untagged
@@ -961,7 +962,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320114109}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88736343, y: 5.2642913, z: 2.4818583}
@@ -973,13 +974,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320114109}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.09, y: 0.69, z: 8.9970255}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -2.2970257, y: -8.739196, z: -0.78000104}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 1759402117}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &320114112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320114109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a360f3319aac046aeba0eeeb1d831a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WizardsStudy: WizardsStudy
 --- !u!1001 &338354554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1783,7 +1797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &599922759
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5326,6 +5340,11 @@ PrefabInstance:
 --- !u!95 &1759402116 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2219854940544717080, guid: ea8df1394352a0a4fb13df1a656949be, type: 3}
+  m_PrefabInstance: {fileID: 1759402115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1759402117 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7949314310924454259, guid: ea8df1394352a0a4fb13df1a656949be, type: 3}
   m_PrefabInstance: {fileID: 1759402115}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1764291732
