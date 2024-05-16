@@ -53009,12 +53009,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364859431}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.04, y: 32.06, z: 39.21}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.460001, y: -0.3959999, z: 0.7099991}
+  m_LocalScale: {x: 2, y: 0.2, z: 0.33333334}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 1554472946}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1366836399
 GameObject:
@@ -64953,7 +64953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7731498637235489652, guid: c37f8131a3c29c04dba6fba98afe5952, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7731498637235489652, guid: c37f8131a3c29c04dba6fba98afe5952, type: 3}
       propertyPath: m_LocalScale.z
@@ -65001,10 +65001,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8115241823332894733, guid: c37f8131a3c29c04dba6fba98afe5952, type: 3}
       propertyPath: m_Name
-      value: Door (1)
+      value: PortalDoor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c37f8131a3c29c04dba6fba98afe5952, type: 3}
+--- !u!4 &1554472946 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7731498637235489652, guid: c37f8131a3c29c04dba6fba98afe5952, type: 3}
+  m_PrefabInstance: {fileID: 1554472945}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1558035542
 GameObject:
   m_ObjectHideFlags: 0
