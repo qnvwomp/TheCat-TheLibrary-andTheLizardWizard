@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LibraryRooms/DuskMainRoom.unity
     guid: fa134161c61a95f4fb6e5efc819cb388
   - enabled: 1
+    path: Assets/Scenes/LibraryRooms/WizardsStudy.unity
+    guid: 2a00cb4f2bae6c84fa62d4c5325b8332
+  - enabled: 1
     path: Assets/Scenes/LibraryRooms/Basement.unity
     guid: 74c390714e1db4440a6d24720e0903dd
   - enabled: 1

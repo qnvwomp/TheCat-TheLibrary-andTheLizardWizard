@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChangeDuskMainRoom : MonoBehaviour
+public class SceneChangeWizardsStudy : MonoBehaviour
 {
-    public string WizardsStudy; // Name of the scene to load
+    public string NightMainRoom; // Name of the scene to load
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,7 +13,7 @@ public class SceneChangeDuskMainRoom : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Load the specified scene
-            SceneManager.LoadScene(WizardsStudy);
+            SceneManager.LoadScene(NightMainRoom);
         }
     }
 }
