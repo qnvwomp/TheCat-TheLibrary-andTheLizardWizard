@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LibraryRooms/Basement.unity
     guid: 74c390714e1db4440a6d24720e0903dd
+  - enabled: 1
+    path: Assets/Scenes/LibraryRooms/BossRoom.unity
+    guid: f708e6a5f46e2f3418d669dd4bfa5e44
   - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 49eb575efe7f42741b60381cc0e8b633

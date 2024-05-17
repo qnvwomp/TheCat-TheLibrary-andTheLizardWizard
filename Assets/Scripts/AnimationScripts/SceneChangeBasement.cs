@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangeBasement : MonoBehaviour
 {
-    public string NightMainRoom; // Name of the scene to load
+    public string BossRoom; // Name of the scene to load
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,7 +13,7 @@ public class SceneChangeBasement : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Load the specified scene
-            SceneManager.LoadScene(NightMainRoom);
+            SceneManager.LoadScene(BossRoom);
         }
     }
 }
