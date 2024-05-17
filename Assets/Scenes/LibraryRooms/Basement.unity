@@ -52795,7 +52795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e833de8f212d840aca91bcfb23d44b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NightMainRoom: BossRoom
+  NightMainRoom: NightMainRoom
 --- !u!65 &1364859433
 BoxCollider:
   m_ObjectHideFlags: 0
