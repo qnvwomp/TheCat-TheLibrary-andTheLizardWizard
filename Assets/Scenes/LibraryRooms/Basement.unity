@@ -3670,6 +3670,7 @@ GameObject:
   - component: {fileID: 108221784}
   - component: {fileID: 108221783}
   - component: {fileID: 108221785}
+  - component: {fileID: 108221786}
   m_Layer: 0
   m_Name: OpenCellCollider
   m_TagString: Untagged
@@ -3717,6 +3718,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2108549522}
+--- !u!114 &108221786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108221782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d589fcf99810a4fb5a7fad829de800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 144545607}
 --- !u!1 &109450070
 GameObject:
   m_ObjectHideFlags: 0
@@ -5494,6 +5508,11 @@ PrefabInstance:
 --- !u!4 &144545606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 101358980951423879, guid: df365d990144cb443ab2b5ab63da609a, type: 3}
+  m_PrefabInstance: {fileID: 144545605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &144545607 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 101358981472068679, guid: df365d990144cb443ab2b5ab63da609a, type: 3}
   m_PrefabInstance: {fileID: 144545605}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &145065233
